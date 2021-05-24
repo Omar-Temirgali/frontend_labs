@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "header">
+        <div id = "logo" onclick="window.location.reload()" onmouseover="onLogo()" onmouseout="outLogo()"><img id = "logO" src="media/logo1.png" alt="logo" width="60px"></div>
+        <div id = "games" onclick="changeContent(this)" onmouseover="larger(this)" onmouseout="smaller(this)">GAMES</div>
+        <div id = "music" onclick="changeContent(this)" onmouseover="larger(this)" onmouseout="smaller(this)">MUSIC</div>
+        <div id = "arts" onclick="changeContent(this)" onmouseover="larger(this)" onmouseout="smaller(this)">ARTS</div>
+    </div>
+    <div class="main">
+        <div id = "container">
+            <img id="picture" src="media/6o0.gif" alt="comp" width="400px">
+        </div>
+        <div class = "part">
+            <h1 id = "header_h1">8-bit culture</h1>
+            <p id ="myP">Beginning with early Atari and Nintendo video games, 
+                the 8-bit aesthetic has been a part of our culture for over 30 years. 
+                As it moved through the generations, 8-bit earned its independence from its 
+                video game roots. The idea of 8-bit now stands for a refreshing level of simplicity and 
+                minimalism, is capable of sonic and visual beauty, and points to the layer of 
+                technology that suffuses our modern lives. No longer just nostalgia art, 
+                contemporary 8-bit artists and chiptunes musicians have elevated the form to new levels 
+                of creativity and cultural reflection.</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

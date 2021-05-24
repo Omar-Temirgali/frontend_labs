@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 4</title>
+</head>
+<body>
+	<script>
+		//assignment_1
+		document.write("ASSIGNMENT #1<br><br>");
+		var bDay = new Date("May 29, 2001");
+		var today = new Date();
+		var diff = (today.getTime() - bDay.getTime()) / (1000 * 3600 * 24);
+		document.write("I've lived ", Math.round(diff), " days<br><br>");
+
+		//assignment_3
+		document.write("ASSIGNMENT #2<br><br>");
+		calculate(75, '%', 10);
+		function calculate(x, o, y) {
+			switch(o) {
+				case '+': document.write("The sum is ", (x + y), "<br><br>"); break;
+				case '-': document.write("The subtraction is ", (x - y), "<br><br>"); break;
+				case '*': document.write("The multiplication is ", (x * y), "<br><br>"); break;
+				case '/': document.write("The division is ", (x / y), "<br><br>"); break;
+				case '%': document.write("The remainder is ", (x % y), "<br><br>"); break;
+				default: document.write("Error. Wrong operator. <br><br>");
+			}
+		}
+
+		//assignment_3
+		document.write("ASSIGNMENT #3<br><br>");
+		var num = 75;
+		for (var i = 1; i <= num; i++) {
+			if ((num % i) == 0) document.write(i, "<br>");
+		}
+	</script>
+</body>
+</html>

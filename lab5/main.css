@@ -1,0 +1,43 @@
+body {
+    margin: 0 auto;
+    background-color: #64194e;
+    background-image: url("media/264924.jpg");
+    min-width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 150px;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    min-width: 400px;
+}
+#logo, #games, #music, #arts {
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: violet;
+    text-align: center;
+}
+#myP {
+    font-family: 'Press Start 2P', cursive;
+    width: 500px;
+    color: white;
+    text-align: center;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

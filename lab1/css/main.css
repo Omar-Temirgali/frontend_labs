@@ -1,0 +1,61 @@
+* {
+	margin: 0 auto;
+	align-content: center;
+}
+.header {
+	width: 1400px;
+	background-color: dodgerblue;
+}
+.header ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 34px;
+	overflow: hidden;
+	padding: 20px;
+}
+.header ul li a {
+	float: left;
+	margin-left: 100px;
+	color: white;
+	text-decoration: none;
+}
+.info {
+	align-content: center;
+	width: 1200px;
+}
+.info .logo {
+	display: inline;
+	vertical-align: top;
+}
+.info .logo img {
+	width: 400px;
+	margin-left: 250px;
+}
+.info .table {
+	display: inline-block;
+	margin-top: 100px; 
+}
+.info .table td {
+	border: 1px solid black;
+	padding: 2px;
+	text-align: center;
+}
+.info .table h2 {
+	text-align: center;
+}
+hr {
+	width: 1200px;
+}
+h3 {
+	text-align: center;
+	padding-top: 10px; 
+}
+.questions {
+	align-content: center;
+	width: 1400px;
+}
+textarea {
+	margin-left: 240px;
+	resize: none;
+}
+

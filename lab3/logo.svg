@@ -1,0 +1,15 @@
+
+		<svg width="300" height="300">
+				<defs>
+					<linearGradient id="gradRect">
+						<stop offset="0%" style="stop-color: rgb(46, 187, 194); stop-opacity:0.5" />
+      					<stop offset="100%" style="stop-color: rgb(32, 88, 191); stop-opacity:1" />
+      				</linearGradient>
+      				<linearGradient id="gradText">
+      					<stop offset="10%" style="stop-color: rgb(255, 255, 0);" />
+      					<stop offset="100%" style="stop-color: rgb(255, 255, 136); stop-opacity: 0.4" />
+      				</linearGradient>
+				</defs>
+			<rect class="rectangle" x="0" y="0" rx="18" ry="18" width="200" height="200" style="fill:url(#gradRect)"/>
+			<text x="30" y="145" style="font-family: 'Long Cang', cursive; font-size: 150px; fill: url(#gradText)">本</text>
+		</svg>
